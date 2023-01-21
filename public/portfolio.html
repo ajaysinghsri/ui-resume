@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>portfolio</title>
+    <style>
+        .homepage:hover{
+            color: coral;
+        }
+        .about:hover{
+            color: coral;
+        }
+        .homepage{
+            color: white;
+        }
+        .about{
+            color: white;
+        }
+        nav{
+            cursor: grab;
+            
+            
+        }
+        .top{
+            color: darkgray;
+            font-size: 25px;
+            font-family: arial;
+            font-weight: bold;
+    
+        }
+        #top-1{
+            height: 100px;
+        }
+        #intro{
+            height: 600px;
+            background-color: darkslategray;
+            
+        }
+        .clap{
+            margin-top: 70px;
+            font-size: 20px;
+            color: darkgray;
+            font-weight: bold;
+            font-family: arial;
+        }
+        .heading{
+            font-size: 70px;
+            font-family: arial;
+            font-weight: bold;
+            color: darkgray;
+        }
+        .heading-2{
+            color: coral;
+            font-size: 70px;
+            font-family: arial;
+            font-weight: bold;
+            margin-top: -20px;  
+        }
+        .lorem{
+            color: darkgray;
+            font-size: 17px;
+            font-weight: bold;
+            font-family: arial;
+        }
+        .num{
+            font-size: 40px;
+            font-weight: bold;
+            color: darkgray;
+        }
+        .award{
+            font-size: 20px;
+            color: coral;
+            font-weight: bold;
+            font-family: arial;
+        }
+        .head-bot{
+            margin-top: 50px;
+        }
+        .bot{
+            margin-left: 35px;
+        }
+        .get{
+            margin-left: 65px;
+        
+        }
+        .get p {
+            background-color: coral;
+            color: white;
+        }
+        .pic{
+            
+            margin-top: -75px;
+            margin-left: -40px;
+        }
+        .alien{
+            opacity: 0.2;
+        }
+        .alien:hover{
+            opacity: 1;
+            transition: 2s;
+        }
+        .zfu{
+            opacity: 0.2;
+        }
+        .zfu:hover{
+            opacity: 1;
+            transition: 2s;
+        }
+        .guy{
+            opacity: 0.2;
+        }
+        .guy:hover{
+            opacity: 1;
+            transition: 2s;
+        }
+        .tech{
+            opacity: 0.2;
+        }
+        .tech:hover{
+            opacity: 1;
+            transition: 2s;
+        }
+        .ninja{
+            opacity: 0.2;
+        }
+        .ninja:hover{
+            opacity: 1;
+            transition: 2s;
+        }
+        .star-app{
+            opacity: 0.2;
+        }
+        .star-app:hover{
+            opacity: 1;
+            transition: 2s;
+        }
+        #logo-page{
+            height: 180px;
+            
+        }
+        #hire{
+            font-size: 35px;
+            margin-top: 30px;
+        }
+        .download{
+            font-size: 30px;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        .download:visited {
+           color: coral;
+        }
+        #pro{
+            height: 330px;
+            
+        }
+        #man-eye{
+            height: 600px;
+            
+        }
+        #man-eye img {
+            opacity: 0.7;
+        }
+        .my{
+            font-size: 70px;
+            font-weight: bold;
+            color: darkgray;
+            margin-left: -40px;
+        }
+        .skillset{
+            font-size: 80px;
+            font-weight: bold;
+            color: coral;
+            margin-left: -40px;
+        }
+        .past{
+            color: coral;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .number{
+            color: darkslategray;
+        }
+        .ui{
+            color: darkgray;
+        }
+        hr{
+            color: darkgray;
+        }
+        .ton{
+            font-size: 60px;
+            font-weight: bold;
+            color: darkgray;
+        }
+        .ex{
+            font-size: 60px;
+            font-weight: bold;
+            color: coral;
+        }
+        .year{
+            border: 2px solid coral;
+            font-size: 30px;
+            color: coral;
+        }
+        .manager{
+            font-size: 30px;
+            font-weight: bold;
+            color: darkgray;
+        }
+        .lorem{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: arial;
+            color: darkgray;
+            margin-top: 30px;
+        }
+        .says{
+            font-size: 23px;
+            font-weight: bold;
+            font-family: arial;
+            color: darkgray;
+            margin-left: 60px;
+            margin-top: 25px;
+        }
+        .title{
+            font-size: 33px;
+            font-weight: bold;
+            color: darkslateblue;
+            margin-top: -10px;
+        }
+        #client{
+            height: 300px;
+        }
+        .client-pic{
+            margin-top: 50px;
+        }
+        .client{
+            font-size: 25px;
+            font-weight: bold;
+            color: darkslateblue;
+        }
+        .app{
+            font-size: 35px;
+            font-weight: bold;
+            color: darkgray;
+        }
+        .appimg{
+            background-color: darkslateblue;
+        }
+        #project-2{
+            margin-top: 60px;
+        }
+        #clap-2{
+            margin-left: 130px;
+        }
+        .list{
+            width: 300px;
+            height: 50px;
+        }
+        .list-2{
+            height: 100px;
+        }
+        .form-label{
+            font-size: 30px;
+            font-weight: bold;
+            color: coral;
+            margin-top: 40px;
+        }
+        ::placeholder{
+            font-size: 20px;
+            color: darkgray;
+        }
+        .send{
+            margin-top: 15px;
+            font-size: 30px;
+            width: 150px;
+        }
+       
+        
+
+        
+
+    </style>
+</head>
+<body class="container-fluid bg-dark">
+   <header>
+    <nav class="nav-1">
+        <div class="row justify-content-between">
+            <div class="col-md-8 d-flex  p-2">
+                 <div><img src="../public/crevidy-color-black.png" width="100px" height="70px"> </div>
+                 <div class=" homepage pt-3 ms-4">homepage</div>
+                 <div class=" about pt-3 ms-4">about me</div>
+                 <div class="aboutme pt-3 ms-4">
+                    <select class="form-select">
+                        <option>about me</option>
+                    </select>
+                 </div>
+                 <div class=" select pt-3 ms-4">
+                    <select class="form-select">
+                        <option>blog</option>
+                    </select>
+                 </div>
+            </div>
+            <div class="col-md-4 d-flex p-2 ">
+                <div class="drible pt-3 ms-4 text-white"><span><i class="bi bi-globe text-success pe-1"></i></span>&nbsp;<span>dribbble</span></div>
+                <div class="fb pt-3 ms-4 text-white">.fb</div>
+                <div class="lg pt-3 ms-4 text-white">.lg</div>
+                <div class="be pt-3 ms-4 text-white">.be</div>
+                <div class="ytb pt-3 ms-4 text-white">.ytb</div>
+            </div>
+        </div>  
+    </nav>
+   </header>
+    <!--section start-->
+    <section>
+        <div class="row " id="top-1">
+            <div class="col-md-12 bg-dark">
+                <div class="top pt-4 ps-3">top rated at&nbsp;<span class="fi border border-3 border-primary rounded rounded-circle text-success ms-3 p-2">fi</span>&nbsp;<span class="ux border border-3 border-primary ms-3 text-success rounded rounded-circle p-2">ux</span></div>
+            </div>
+        </div>
+        <!--introduction part-->
+        <div class="row" id="intro">
+            <div class="col-md-9">
+                <div class="clap ms-3">
+                    👋DESIGNING THINGS FOR HUMAN
+                </div>
+                <div class="heading mt-3 ms-3">
+                    <p class="">Talented Designer</p>
+                    <p class="heading-2">That Help You</p>
+                </div>
+                <div class="lorem mt-2 ms-3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+                <hr class="w-75 ms-3">
+                <div class="head-bot d-flex  ms-4">
+                    <div>
+                        <p class="num ms-2">45</p>
+                        <p class="award">award</p>
+                    </div>
+                    <div class="bot">
+                        <p class="num ms-4">345</p>
+                        <p class="award">project finished</p>
+                    </div>
+                    <div class="bot">
+                        <p class="num ms-4">10</p>
+                        <p class="award">years expriences</p>  
+                    </div>
+                    <div class="bot">
+                        <p class="num ms-3">175</p>
+                        <p class="award">global client</p>
+                    </div>
+                    <div class="get mt-4">
+                        <p  class="border border-3 rounded rounded-circle p-3">get started</p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="col-md-3">
+                <div class="pic">
+                    <img src="../public/getstart.png" width="100%" height="650px">
+                </div>
+            </div>
+        </div>
+        <!--logo page-->
+        <div class="row" id="logo-page">
+            <div class="col-md-12 d-flex justify-content-evenly">
+                <div class=" alien mt-4">
+                    <img src="../public/logo__alien-tech-logo-template-47FK3AE-1536x1536.png" width="150px" height="150px">
+                </div>
+                <div class="zfu mt-4">
+                    <img src="../public/logo__light-media-colorful-logo-ZFUHAYZ-1536x1536.png" width="150px" height="150px">
+                </div>
+                <div class="guy mt-4">
+                    <img src="../public/logo__ode-guy-logo-template-ATDGZC-1536x1536.png" width="150px" height="150px">
+                </div>
+                <div class="tech mt-4">
+                    <img src="../public/logo__technology-logo-forward-direction-GDRGWR-1536x1536.png" width="150px" height="150px">
+                </div>
+                <div class="ninja mt-4">
+                    <img src="../public/logobrand__app-ninja-ninja-character-mascot-logo-VABN3V-1536x1536.png" width="150px" height="150px">
+                </div>
+                <div class="star-app mt-4">
+                    <img src="../public/logobrand__star-app-logo-template-LNRTU3-1536x1536.png" width="150px" height="150px">
+                </div>
+            </div>           
+        </div>
+        <!---->
+        <div class="row" id="pro">
+            <div class="col-md-6">
+                <div class="clap ms-3">😎I WANT TO INTRODUCE MYSELF</div>
+                <div class="heading mt-3 ms-3">
+                    <p>Professional</p>
+                    <p class="heading-2">Experienced</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <p class="clap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div>
+                   <button class="btn btn-primary" id="hire">hire me</button>
+                   <span><a class="download"  href="">download cv</a></span>
+                </div>
+
+            </div>
+        </div>
+        <!--man sunglasses image-->
+        <div class="row" id="man-eye">
+            <div class="col-md-12">
+                <img src="../public/maneye" height="560px" width="100%">
+            </div>
+        </div>
+        <!--skillset-->
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center align-items-center">
+                <div>
+                    <div class="clap ms-4">🗓️ WHAT I DO</div>
+                    <div><span class="my mt-3">My</span>&nbsp;&nbsp;<span class="skillset ms-2">Skillset</span></div>
+                </div>
+            </div>
+        </div>
+        <!--course-->
+        <div class="row justify-content-evenly bg-dark">
+            <div class="col-md-4 mt-4">
+                <h1><span class="number">01.</span><span class="ui ms-2">ui design</span></h1>
+                <hr>
+                <div class="clap">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div>
+                    <a href="" class="past">see past work</a>
+                </div>
+                <br><br>
+                <h1><span class="number">04.</span><span class="ui ms-2">ux research</span></h1>
+                <hr>
+                <div class="clap">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div>
+                    <a href="" class="past">see past work</a>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <h1><span class="number">02.</span><span class="ui ms-2">ui animation</span></h1>
+                <hr>
+                <div class="clap">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div>
+                    <a href="" class="past">see past work</a>
+                </div>
+                <br><br>
+                <h1><span class="number">05.</span><span class="ui ms-2">ux wireframe</span></h1>
+                <hr>
+                <div class="clap">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div>
+                    <a href="" class="past">see past work</a>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <h1><span class="number">03.</span><span class="ui ms-2">ux design</span></h1>
+                <hr>
+                <div class="clap">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div>
+                    <a href="" class="past">see past work</a>
+                </div>
+                <br><br>
+                <h1><span class="number">06.</span><span class="ui ms-2">design system</span></h1>
+                <hr>
+                <div class="clap">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div>
+                    <a href="" class="past">see past work</a>
+                </div>
+            </div>
+        </div>
+        <!--expriences-->
+        <div class="row">
+            <div class="col-md-3 mt-4">
+                <img src="../public/smileman.png" width="100%" height="100%">
+            </div>
+            <div class="col-md-9">
+                <div class="clap">⏱️ MY JOURNEY & TRACK RECORD</div>
+                <div>
+                    <span class="ton">tons of</span><span class="ex ms-2">expriences</span>
+                </div>
+                <div class="date d-flex justify-content-evenly mt-4">
+                    <div>
+                        <div><span class="year p-1">2002</span></div>
+                        <div class="manager mt-2">Product Manager</div>
+                        <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        <br><br>
+                        <div><span class="year p-1">2020</span></div>
+                        <div class="manager mt-2">Global Speaker</div>
+                        <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                    </div>
+                    <div>
+                        <div><span class="year p-1">2010</span></div>
+                        <div class="manager mt-2">sr.uxi Designer</div>
+                        <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        <br><br>
+                        <div><span class="year  p-1 p-1">2021</span></div>
+                        <div class="manager mt-2">Designer consultant</div>
+                        <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                    </div>
+                    <div>
+                        <div><span class="year p-1">2019</span></div>
+                        <div class="manager mt-2">qa assurance</div>
+                        <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        <br><br>
+                        <div><span class="year p-1">2022</span></div>
+                        <div class="manager mt-2">founder crevidy</div>
+                        <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--client talk-->
+        <div class="row" id="client">
+            <div class="col-md-12 d-flex justify-content-center align-items-center">
+                <div>
+                    <div class="says">👌 PEOPLE SAY ABOUT ME</div>
+                    <div class="" ><span class="heading " >Clients</span><span class="heading-2 ms-3">Talking</span></div>
+                </div>
+            </div>
+        </div>
+        <!--client review-->
+        <div class="row">
+            <div class="col-md-4 border border-3 p-2 bg-success">
+                <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+                <div class="client-pic">
+                    <img src="../public/man-working-at-office-HZ2SC8X.jpg" width="150px" height="150px">
+                </div>
+
+                <div>
+                    <p class="award mt-4">ajay pratap singh<br>CEO</p>
+                    
+                </div>
+            </div>
+            <div class="col-md-4 border border-3 p-2 bg-success">
+                <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+                <div class="client-pic">
+                    <img src="../public/man-working-at-office-HZ2SC8X.jpg" width="150px" height="150px">
+                </div>
+                <div>
+                    <p class="award mt-4">vijay pratap singh<br>Manager</p>
+                    
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <p class="num">100%</p>
+                    <p class="title">Satisfaction rate</p>
+                </div>
+                <hr>
+                <div>
+                    <p class="num">97%</p>
+                    <p class="title">repeat order</p>
+                    <hr>
+                </div>
+                <div>
+                    <span class="num">4.8</span>
+                    <span><i class="bi bi-star-fill text-warning"></i></span>
+                    <span><i class="bi bi-star-fill text-warning ms-1"></i></span>
+                    <span><i class="bi bi-star-fill text-warning ms-1"></i></span>
+                    <span><i class="bi bi-star-fill text-warning ms-1"></i></span>
+                    <span><i class="bi bi-star-fill text-warning ms-1"></i></span>
+                    <p class="title">Google Review</p>
+                </div>
+                <div><button class="btn btn-success">hire me</button></div>
+            </div>
+        </div>
+        <!--work-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="clap">👌 SHOW CASE</div>
+                <div>
+                    <p class="heading">Discover</p>
+                    <p class="heading-2">How I Work</p>
+                </div>
+            </div>
+        </div>
+        <!--project-->
+        <div class="row">
+            <div class="col-md-7">
+                <div class="client mt-4">PROJECT CATEGORY</div>
+                <div class="app mt-4">FINANCIAL APP</div>
+                <div class="client">Short Discription</div>
+                <div>
+                    <p class="clap ">Fusce mollis sem eu ligula ornare, ut molestie eros volutpat. Praesent condimentum, libero id tincidunt tincidunt, neque ex ultrices purus, interdum gravida enim sapien ac urna. Curabitur iaculis dictum auctor. Etiam hendrerit tellus vel risus maximus, eget eleifend sem dictum. Phasellus eu sollicitudin velit, quis scelerisque sapien</p>
+                </div>
+                <div class="client ms-1">Client</div>
+                <div class="app">Savrflow Clop</div>
+                <hr>
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <span class="num">4.8</span>
+                        <span><i class="bi bi-star-fill text-warning"></i></span>
+                        <span><i class="bi bi-star-fill text-warning ms-1"></i></span>
+                        <span><i class="bi bi-star-fill text-warning ms-1"></i></span>
+                        <span><i class="bi bi-star-fill text-warning ms-1"></i></span>
+                        <span><i class="bi bi-star-fill text-warning ms-1"></i></span>
+                        
+                    </div>
+                    <div>
+                        <a class="past mt-4" href="">showcase</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 appimg">
+                <img src="../public/fianceapp-GFRWA3Z.png" width="100%" height="100%">
+            </div>
+        </div>
+        <!--project2-->
+        <div class="row" id="project-2">
+            <div class="col-md-5 appimg">
+                    <img src="../public/fianceapp-GFRWA3Z.png" width="100%" height="100%">
+            </div>
+            <div class="col-md-7">
+                <div class="client mt-4">PROJECT CATEGORY</div>
+                <div class="app mt-4">E-commerce APP</div>
+                <div class="client">Short Discription</div>
+                <div>
+                    <p class="clap ">Fusce mollis sem eu ligula ornare, ut molestie eros volutpat. Praesent condimentum, libero id tincidunt tincidunt, neque ex ultrices purus, interdum gravida enim sapien ac urna. Curabitur iaculis dictum auctor. Etiam hendrerit tellus vel risus maximus, eget eleifend sem dictum. Phasellus eu sollicitudin velit, quis scelerisque sapien</p>
+                </div>
+                <div class="client ms-1">Client</div>
+                <div class="app">HOUKI STORE</div>
+                <hr>
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <span class="num">5</span>
+                        <span><i class="bi bi-star-fill text-warning"></i></span>
+                        <span><i class="bi bi-star-fill text-warning ms-1"></i></span>
+                        <span><i class="bi bi-star-fill text-warning ms-1"></i></span>
+                        <span><i class="bi bi-star-fill text-warning ms-1"></i></span>
+                        <span><i class="bi bi-star-fill text-warning ms-1"></i></span>
+                        
+                    </div>
+                    <div>
+                        <a class="past mt-4" href="">showcase</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--blog block-->
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center align-items-center">
+                <div>
+                    <div class="clap" id="clap-2">👌 LATEST ARTICLES</div>
+                    <div>
+                        <span class="heading">My Blog</span>
+                        <span class="heading-2 ms-3">For You</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--blog pic-->
+        <div class="row justify-content-evenly">
+            <div class="col-md-5 p-4">
+              <div class="d-flex">
+                <div><img src="../public/app1.jpg" width="250px" height="300px"> </div>
+                <div>
+                    <div class="title ms-3">Bad Bad UI: 10 Common Mistakes In User Interfaces</div>
+                    <div class="award mt-4 ms-3">February 7, 2022</div>
+                </div>
+              </div>
+              <br><br>
+              <div class="d-flex">
+                <div><img src="../public/app2.jpg" width="250px" height="300px"> </div>
+                <div>
+                    <div class="title ms-3">
+                        15 Best Weekend Jobs To Make Extra Money ($50/ Hour)</div>
+                    <div class="award mt-4 ms-3">February 7, 2022</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 p-4">
+                <div class="d-flex">
+                    <div><img src="../public/app3.jpg" width="250px" height="300px"> </div>
+                    <div>
+                        <div class="title ms-3">8 Best Websites To Help You Practice UX</div>
+                        <div class="award mt-4 ms-3">February 7, 2022</div>
+                    </div>
+                  </div>
+                  <br><br>
+                  <div class="d-flex">
+                    <div><img src="../public/app4.jpg" width="250px" height="300px"> </div>
+                    <div>
+                        <div class="title ms-3">16 Leading Trends In UX/UI Design You Should Know</div>
+                        <div class="award mt-4 ms-3">February 7, 2022</div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!--footer started-->
+    <footer>
+        <div class="row justify-content-evenly mt-4">
+            <div class="col-md-5">
+                <div class="clap">😎 INTERESTED?</div>
+                <div class="heading">Let's</div>
+                <div class="heading-2">Connect!</div>
+                <div>
+                    <p class="clap">I help people and team worldwide. I can help you build your next digital product so fell to contact me. Sooner you write is better for both of us.
+
+                    </p>
+                </div>
+                <div>
+                    <span><i class="bi bi-envelope-check-fill award"></i></span>
+                    <span class="ms-3 award">ajaysingh@gmail.com</span>
+                </div>
+                <div>
+                    <span><i class="bi bi-telephone-fill award"></i></span>
+                    <span class="award ms-3">9999999-888-7</span>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <form name="form1" method="post">
+                    <div class="d-flex">
+                        <div>
+                            <label for="name" class="form-label">name</label>
+                            <div>
+                                <input type="text" placeholder="enter name" name="name" class="form-control list">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="emailid" class="form-label ms-4">email</label>
+                            <div>
+                                <input type="email" placeholder="ajaysingh@gmail.com" name="emailid" class="form-control list ms-3">
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="d-flex">
+                        <div>
+                            <label for="phone" class="form-label">phone no.</label>
+                            <div>
+                                <input type="text" placeholder="99999-88-77" name="phone" class="form-control list">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="group" class="form-label ms-4">I'm intrested in</label>
+                            <div>
+                                <select class="form-select list ms-3" name="group">
+                                    <option>select</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="goal" class="form-label">tell me more about your goal</label>
+                        <div>
+                            <input type="textbox" name="goal" class="form-control list-2" placeholder="tll me more about your goal">
+                        </div>
+                    </div>
+                    <div>
+                        <input type="submit" name="submit" value="send" class="btn btn-success send">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
